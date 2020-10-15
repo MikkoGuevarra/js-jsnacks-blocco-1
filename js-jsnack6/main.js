@@ -1,7 +1,8 @@
-var userChoice = parseInt(prompt("Inserisci il numero che vuoi che trasformi al cubo"));
-//inizio ciclo for per fare il cubo di N numeri
-for (var i = 0; i < userChoice.length; i++) {
-    //creo variabile di supporto
-    var currentNumber = userChoice[i];
-    console.log(currentNumber);
+//Stampa le potenze di 2 senza superare il numero 1000.
+
+for (var i = 0; i < 20; i++) {
+    var potenza = Math.pow(2, i);
+    if (potenza < 1000) {
+        console.log("2 alla " + i + " " +potenza);
+    }
 }
