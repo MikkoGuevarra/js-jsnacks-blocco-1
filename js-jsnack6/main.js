@@ -1,6 +1,7 @@
-//Stampa le potenze di 2 senza superare il numero 1000.
-
-for (var i = 0; i < 10; i++) {
-
-    
+var userChoice = parseInt(prompt("Inserisci il numero che vuoi che trasformi al cubo"));
+//inizio ciclo for per fare il cubo di N numeri
+for (var i = 0; i < userChoice.length; i++) {
+    //creo variabile di supporto
+    var currentNumber = userChoice[i];
+    console.log(currentNumber);
 }
