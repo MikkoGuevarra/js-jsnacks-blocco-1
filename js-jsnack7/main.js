@@ -2,6 +2,7 @@
 totSum = 0
 for (var i = 0; i < 10; i++) {
     totSum = i + 1 + totSum;
+    // totSum += i + 1;
 }
 console.log("la somma è " + totSum);
 
